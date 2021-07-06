@@ -6,6 +6,8 @@ import 'package:place_plugin/place_plugin.dart';
 
 class PlaceAutocompleteService {
   final _controller = StreamController();
+  String googlePlaceApiKey = '';
+  Strig googlePlaceAndroidApiKey = '';
 
   PlaceAutocompleteService() {
     PlacePlugin.initialize(
